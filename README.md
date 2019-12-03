@@ -16,3 +16,6 @@ Make sure that CCS discovers all the above installed products. If not, go to Win
 - Import _driverlib_, _usblib_ and _dlpspeclib_ in the _lib_ folder into CCS workspace. 
 - Copy the ⁨lib⁩/⁨xdctools_3_30_04_52_core⁩/packages⁩/⁨ti⁩/⁨platforms/tiva folder into your installation path of _xdctools_.
 - Make the project. 
+
+## License
+Following TI's original License.
