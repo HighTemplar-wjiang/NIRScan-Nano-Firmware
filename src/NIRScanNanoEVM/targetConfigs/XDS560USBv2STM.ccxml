@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="Spectrum Digital XDS560V2 STM USB Emulator_0">
+        <instance XML_version="1.2" desc="Spectrum Digital XDS560V2 STM USB Emulator_0" href="connections/SD560V2USB_Connection.xml" id="Spectrum Digital XDS560V2 STM USB Emulator_0" xml="SD560V2USB_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Spectrum Digital XDS560V2 STM USB Emulator_0">
+            <instance XML_version="1.2" href="drivers/tixds560cs_dap.xml" id="drivers" xml="tixds560cs_dap.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560cortexM.xml" id="drivers" xml="tixds560cortexM.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="7" id="JTAG TCLK Frequency (MHz)">
+                <choice Name="TCLK looped-back with user specified limit" value="automatic">
+                    <property Type="stringfield" Value="10Mhz" id="-- Enter a value from 0.5MHz to 64.0MHz"/>
+                </choice>
+            </property>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="Tiva TM4C1299NCZAD_0" href="devices/tm4c1299nczad.xml" id="Tiva TM4C1299NCZAD_0" xml="tm4c1299nczad.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
